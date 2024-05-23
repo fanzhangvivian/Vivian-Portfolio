@@ -1,0 +1,82 @@
+.gradient-background {
+  background: linear-gradient(300deg, rgb(118, 124, 170), rgb(160, 94, 136), #d4766a);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: rgb(196, 103, 139);
+}
+
+.profile-img {
+  height: 150px;
+  border-radius: 50%;
+}
+h1 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+}
+h2 {
+  font-size: calc(1.325rem + .9vw);
+  font-weight: 500;
+}
+h3 {
+  font-size:rem;
+  color: whitesmoke;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.purple {
+  color:rgb(196, 103, 139);
+  font-weight: 700;
+}
+.purplebackground {
+  background-color: rgb(196, 103, 139);
+}
+.black {
+  color: black;
+  font-weight: 700;
+}
+.bg-custom-1 {
+  background-color:rgb(196, 103, 139);
+}
+.white {
+  color:whitesmoke;
+}
+.fw-light {
+  font-weight: 700;
+}
+#content {
+  text-align: center;
+  height: 100vh;
+}
+.title-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.contactme {
+  color: whitesmoke;
+}
+.title {
+  padding-top: 150px;
+}
