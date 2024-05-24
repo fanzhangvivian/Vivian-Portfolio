@@ -65,8 +65,19 @@ body {
   font-weight: 700;
 }
 #content {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh; /* Full viewport height */
   text-align: center;
-  height: 100vh;
+}
+/* .col-lg-6 {
+  margin-left: auto;
+  margin-right: auto;
+} */
+.no-margin {
+  margin: 0; Remove margin
+  text-align-last: justify; Align last line of text to justify
 }
 .title-row {
   display: flex;
@@ -77,6 +88,11 @@ body {
 .contactme {
   color: whitesmoke;
 }
-.title {
-  padding-top: 150px;
+
+.text-align-justify {
+  text-align: justify; /* Justify the text within the <h3> element */
+}
+html, body {
+  height: 100%;
+  margin: 0;
 }
